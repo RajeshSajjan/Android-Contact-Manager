@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.contacts.MainActivity" >
+    
+ <item android:id="@+id/action_add"
+          android:icon="@drawable/ic_action_new"
+          android:title="@string/add"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/action_edit"
+          android:icon="@drawable/ic_action_edit"
+          android:title="@string/edit"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/action_delete"
+          android:icon="@drawable/ic_action_discard"
+          android:title="@string/delete" />
+
+</menu>
